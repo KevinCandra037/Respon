@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Respon" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryDay</item>
+        <item name="colorSecondary">@color/SecondaryDay</item>
+        <item name="colorAccent">@color/accentDay</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.Respon" parent="Base.Theme.Respon" />
+</resources>

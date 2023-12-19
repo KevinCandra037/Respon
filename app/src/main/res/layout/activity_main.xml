@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundDay">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_toast"
+        android:text="@string/toast"
+        android:backgroundTint="@color/primaryDay"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_snack"
+        android:text="@string/snack_bar"
+        android:backgroundTint="@color/primaryDay"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_dialog"
+        android:text="@string/dialog"
+        android:backgroundTint="@color/primaryDay"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_notifikasi"
+        android:text="@string/notifikasi"
+        android:backgroundTint="@color/primaryDay"/>
+
+</LinearLayout>

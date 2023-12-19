@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Respon</string>
+    <string name="toast" translatable="false">Toast</string>
+    <string name="snack_bar" translatable="false">Snack Bar</string>
+    <string name="dialog" translatable="false">Dialog</string>
+    <string name="notifikasi">Notifikasi</string>
+</resources>
