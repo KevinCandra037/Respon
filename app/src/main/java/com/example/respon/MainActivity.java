@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         binding.btNotifikasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // menambahkan notifikasi jika belum mengaktifkan izin Notificatin
+                // menambahkan dialog jika belum mengaktifkan izin Notifikasi
                 if (NotificationManagerCompat.from(MainActivity.this).areNotificationsEnabled()) {
                     NotificationCompat.Builder mBuilder = new
                         NotificationCompat.Builder(MainActivity.this, "channel1")
